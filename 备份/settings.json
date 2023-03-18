@@ -1,0 +1,125 @@
+{
+  "workbench.colorTheme": "Default Light+",
+  "winopacity.opacity": 250,
+  "security.workspace.trust.untrustedFiles": "open",
+  "cssrem.rootFontSize": 100,
+  "cssrem.fixedDigits": 2,
+  "cssrem.ingoresViaCommand": [
+      "1px"
+  ],
+  "editor.inlineSuggest.enabled": true,
+  // 代码块设置
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderControlCharacters": true,
+  "editor.detectIndentation": false,
+  // 显示空格
+  "editor.renderWhitespace": "all",
+  //自动补齐文件路径时，带入扩展名
+  "path-autocomplete.extensionOnImport": true,
+  //使autocompletion以外的路径字符串。
+  // 控制键入时是否应自动显示建议
+  "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+  },
+  // 启用后，将在保存文件时剪裁尾随空格。
+  "files.trimTrailingWhitespace": true,
+  // 启用后，将使用的参数和方法名称的类型进行提示。
+  "docthis.inferTypesFromNames": true,
+  // 当 editor.cursorStyle 设置为 "line" 时控制光标的宽度。
+  "editor.cursorWidth": 0,
+  // 总是显示ESLint状态栏
+  "eslint.alwaysShowStatus": true,
+  // 打开自动修复保存或关闭
+  "eslint.autoFixOnSave": true,
+  // 每次保存文件（ctrl+s）时，eslint插件会自动对当前文件进行eslint语法修正！
+  "eslint.validate": [
+      "javascript",
+      "html",
+      "javascriptreact",
+      {
+          "language": "vue",
+          "autoFix": true
+      },
+      "html",
+      "vue"
+  ],
+  "eslint.options": {
+      "extensions": [
+          ".js",
+          ".vue"
+      ]
+  },
+  // 保存时修复来自所有插件的所有可自动修复的ESlint错误（重点其实只有这一个）
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  // 在快速修复菜单中显示打开的 lint 规则文档网页
+  "eslint.codeAction.showDocumentation": {
+      "enable": true
+  },
+  "vetur.completion.scaffoldSnippetSources": {
+      "workspace": "??",
+      "user": "???",
+      "vetur": "?"
+  },
+  "vetur.format.options.tabSize": 4,
+  "vetur.format.defaultFormatterOptions": {
+      "js-beautify-html": {
+          "wrap_line_length": 200,
+          "wrap_attributes": "auto"
+      },
+      "prettyhtml": {
+          "printWidth": 160,
+          "singleQuote": false,
+          "wrapAttributes": false,
+          "sortAttributes": false
+      }
+  },
+  //为了符合eslint的两个空格间隔原则
+  "editor.tabSize": 2,
+  // 控制编辑器是否应在键入后自动设置行的格式
+  "editor.formatOnType": true,
+  // 启用/禁用 HTML 标记的自动关闭。
+  "html.autoClosingTags": true,
+  // 启用后，按下 TAB 键，将展开 Emmet 缩写。
+  "emmet.triggerExpansionOnTab": true,
+  "editor.fontSize": 15,
+  "files.associations": {
+      "*.inc": "jsp",
+      "*.vue": "vue",
+      "*.jsp": "jsp"
+  },
+  "editor.wordWrap": "on",
+  "[jsp]": {},
+  "typescript.format.enable": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "search.followSymlinks": false,
+  "editor.maxTokenizationLineLength": 20000000000,
+
+  "gitlens.defaultDateFormat": null,
+  "workbench.iconTheme": "vscode-icons",
+  "codesnap.containerPadding": "0.1em",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 140,
+  "workbench.startupEditor": "none",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "eslint.migration.2_x": "off",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+}
