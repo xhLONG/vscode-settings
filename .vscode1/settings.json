@@ -1,4 +1,6 @@
 {
+  // Visual
+  "workbench.colorTheme": "Default Dark+",
   "workbench.preferredDarkColorTheme": "Default Dark+",
   "workbench.fontAliasing": "antialiased",
   "editor.fontFamily": "Input Mono, Fira Code, monospace",
